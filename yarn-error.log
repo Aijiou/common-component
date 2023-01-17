@@ -1,0 +1,39 @@
+Arguments: 
+  /Users/caiyu/.nvm/versions/node/v14.17.3/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js publish
+
+PATH: 
+  /Users/caiyu/.nvm/versions/node/v14.17.3/bin:/usr/local/opt/openjdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.17.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/caiyu/work/myproject/yu-test-package/package.json: Unexpected token } in JSON at position 238
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "yu-test-package",
+    "version": "1.0.0-beta",
+    "description": "just test",
+    "main": "index.js",
+    "repository": "https://github.com/Aijiou/yu-test-package.git",
+    "author": "candice <1307824782@qq.com>",
+    "license": "MIT",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

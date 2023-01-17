@@ -1,2 +1,3 @@
 export const defaultName = 'Candice'
-console.log('defaultName..', defaultName)
+export const defaultAddress = "SiChuan province"
+console.log('defaultName..', defaultName,defaultAddress)
