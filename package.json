@@ -1,0 +1,9 @@
+{
+  "name": "common-component",
+  "version": "1.0.0",
+  "description": "just test",
+  "main": "index.js",
+  "repository": "https://github.com/Aijiou/common-component.git",
+  "author": "candice <1307824782@qq.com>",
+  "license": "MIT"
+}
