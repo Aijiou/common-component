@@ -1,6 +1,6 @@
 {
   "name": "yu-test-package",
-  "version": "1.0.1-0",
+  "version": "1.0.1",
   "description": "just test",
   "main": "index.js",
   "repository": "https://github.com/Aijiou/yu-test-package.git",
